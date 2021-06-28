@@ -1,16 +1,17 @@
 <template>
   <div id="app">
+    <Tabbar />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import Tabbar from '@/common/components/Tabbar.vue'
 
 export default {
   name: 'App',
   components: {
-
+    Tabbar
   }
 }
 </script>

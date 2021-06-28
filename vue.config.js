@@ -6,7 +6,7 @@ module.exports = {
             postcss: {
                 plugins: [
                     px2rem({
-                        rootValue: 32,
+                        rootValue: 100,
                         propList: ['*'],
                     }),
                 ],

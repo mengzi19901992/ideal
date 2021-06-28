@@ -1,5 +1,5 @@
 <template>
-   <div></div>
+   <div>奖赏</div>
 </template>
 
 <script>
